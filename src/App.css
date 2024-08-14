@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+    padding: 20px;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background: url('https://media.giphy.com/media/gV9VBMkhRC6g8/giphy.gif') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .input-label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    color: #61dafb; 
+  }
+  
+  .text-input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 20px;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .text-input:focus {
+    border-color: #61dafb;
+    box-shadow: 0 0 5px rgba(97, 218, 251, 0.5);
+  }
+  
+  .text-input::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
