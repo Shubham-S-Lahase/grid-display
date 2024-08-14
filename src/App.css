@@ -9,8 +9,6 @@
     justify-content: flex-start;
     font-size: calc(10px + 2vmin);
     color: white;
-    background: url('https://media.giphy.com/media/gV9VBMkhRC6g8/giphy.gif') no-repeat center center fixed;
-    background-size: cover;
   }
   
   h1 {
